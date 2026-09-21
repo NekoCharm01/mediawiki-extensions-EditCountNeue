@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"PanWor",
 			"Rail"
 		]
 	},
@@ -14,5 +15,5 @@
 	"editcountneue-result-namespace": "Przestrzeń nazw",
 	"editcountneue-result-percentage": "Procent",
 	"editcountneue-result-heading": "Liczba edycji {{GENDER:$1|użytkownika|użytkowniczki}} „$1”",
-	"editcountneue-error-userdoesnotexist": "Konto użytkownika „$1” nie jest zarejestrowane i nie posiada edycji."
+	"editcountneue-error-userdoesnotexist": "Konto użytkownika „$1” nie jest zarejestrowane i nie ma edycji."
 }
