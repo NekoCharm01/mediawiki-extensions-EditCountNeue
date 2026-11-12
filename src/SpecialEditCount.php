@@ -77,7 +77,7 @@ class SpecialEditCount extends SpecialPage {
 		// PHP considers '0' to be falsy –
 		//  but '0' is a valid title and valid user name in MediaWiki.
 		if ( $username === null || $username === '' ) {
-			$this->outputHTMLForm();
+			$this->outputHTMLForm( null );
 			return;
 		}
 
