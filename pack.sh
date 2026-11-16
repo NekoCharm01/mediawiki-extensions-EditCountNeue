@@ -1,5 +1,5 @@
 #!/bin/bash
-for branch in REL1_43 REL1_44 REL1_45 master; do
+for branch in REL1_43 REL1_45 REL1_46 REL1_47 master; do
   git checkout $branch
   sha=$(git show -s --format=%H)
   echo "{\"head\": \"$sha\n\", \"headSHA1\": \"$sha\n\", \"headCommitDate\": \
